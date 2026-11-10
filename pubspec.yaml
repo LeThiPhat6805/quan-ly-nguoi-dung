@@ -1,0 +1,36 @@
+name: quan_ly_nguoi_dung
+description: "Ứng dụng quản lý người dùng phân hệ Admin - Firebase Flutter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core - bắt buộc
+  firebase_core: ^3.6.0
+
+  # Đăng nhập email/password
+  firebase_auth: ^5.3.1
+
+  # Lưu dữ liệu người dùng (Realtime Database)
+  firebase_database: ^11.1.4
+
+  # Chọn ảnh từ thư viện - hỗ trợ cả Web và Android
+  image_picker: ^1.1.2
+
+  # Nén và resize ảnh (pure Dart - hoạt động cả Web + Android)
+  image: ^4.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
